@@ -1,0 +1,183 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(120, 78, 0);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+}
+
+.nav1 {
+    color: white;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.bg-img {
+    position:fixed;
+    z-index: -1;
+    width: 100%;
+    height: 420px;
+}
+
+.main-header {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 5px 5px 10px rgb(0,0,0);
+    height: 400px;
+
+}
+
+.main-section {
+    background-color: rgb(255, 245, 233);
+}
+
+.show-list {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.month {
+    padding-top: 50px;
+}
+
+.date-display {
+    border: 1px solid rgb(176, 116, 43);
+    background-color: rgb(255, 218, 172);
+    border-radius: 2px;
+}
+
+.shows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2%;
+}
+
+.show-image {
+    width: 30%;
+    height: 30%
+}
+
+.show-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    font-size: 15px;
+    padding-top: 5%;
+    padding-right: 5%;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.read-button {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-weight: 400;
+    
+}
+
+button {
+    background-color: rgb(252, 196, 112);
+    border: 1px solid rgb(216, 141, 1);
+    border-radius: 2px;
+}
+
+hr {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), black, rgba(255, 255, 255, 0));
+}
+
+
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 4%
+}
+
+map {
+    width: 100px
+}
+
+.city-map {
+    width: 75%
+}
+
+.foothead { 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.foot-info {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-right: 5%;
+    font-size: .7em;
+}
+
+.foot-shows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-right: 10%;
+    font-size: .6em
+}
+
+.foot-social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.fa-solid {
+    color:rgb(216, 141, 1)
+}
+
+.fa-brands {
+    color:rgb(216, 141, 1)
+}
